@@ -1,0 +1,19 @@
+1 2 + 3 x - * ABS NEG done
+-|((1 + 2) * (3 - x))|
+eval
+x has no value.
+set x 4
+print
+-|((1 + 2) * (3 - 4))|
+eval
+-3
+set x 3
+print
+-|((1 + 2) * (3 - 3))|
+eval
+0
+unset x
+print
+-|((1 + 2) * (3 - x))|
+eval
+x has no value.
